@@ -20,6 +20,6 @@ jobs:
       # Checkout the repository under $GITHUB_WORKSPACE.
       - uses: actions/checkout@v1
 
-      # Check bazel12.
+      # Check bazel123.
       - name: Check for bazel
         run: bazel --version
