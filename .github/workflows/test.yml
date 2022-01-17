@@ -10,7 +10,7 @@ on:
       
 jobs:
   build-and-test:
-  name: Build and Test
+    name: Build and Test
     runs-on: macos-latest
     # We want to run on external PRs, but not on our own internal PRs as
     # they'll be run by the push to the branch
