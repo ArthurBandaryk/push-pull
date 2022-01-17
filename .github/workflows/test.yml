@@ -7,7 +7,7 @@ on:
       - "**"
     paths-ignore:
       - '**.md'
-      
+  
 jobs:
   build-and-test:
     name: Build and Test
@@ -20,6 +20,6 @@ jobs:
       # Checkout the repository under $GITHUB_WORKSPACE.
       - uses: actions/checkout@v1
 
-      # Check bazel.
+      # Check bazel123.
       - name: Check for bazel
-        run: bazel --version
+        run: 'false' 
