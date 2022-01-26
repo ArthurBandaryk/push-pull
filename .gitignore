@@ -1,0 +1,9 @@
+.vs
+.vscode
+.DS_Store
+bazel-bin
+bazel-eventuals
+bazel-out
+bazel-testlogs
+user.bazelrc
+def
